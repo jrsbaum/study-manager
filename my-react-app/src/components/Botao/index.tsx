@@ -1,16 +1,17 @@
-import React from "react";
+import React, { ReactFragment} from "react";
 import style from './Botao.module.scss';
 
-class Botao extends React.Component <any, any>
-{
-    render(){        
-        return (
-            <button className={style.botao}>
-                {this.props.children}
-            </button>
-        )
-    }
-    
+type Params = {
+    type?: "button" | "submit" | "reset" | undefined;
+    children?: ReactFragment | undefined;
+}
+
+const Botao: React.FC<Params> = (props:Params) =>{   
+    return(
+        <button type={props.type} className={style.botao}>
+            {props.children}
+        </button>
+    )
 }
 
 export default Botao
