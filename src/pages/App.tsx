@@ -1,4 +1,4 @@
-import React, {useState } from 'react';
+import { useState } from 'react';
 import Cronometro from '../components/Cronometro';
 import Formulario from '../components/Formulario';
 import Lista from '../components/Lista';

@@ -1,5 +1,4 @@
-import { throws } from "assert";
-import React, {Children, ReactNode, useState} from "react";
+import React, { useState } from "react";
 import { ITarefa } from "../../types/tarefa";
 import Botao from "../Botao";
 import { v4 as uuidv4 }  from 'uuid';
