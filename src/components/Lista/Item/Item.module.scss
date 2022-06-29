@@ -1,5 +1,5 @@
 .item {
-    background-color: #4D4D4D;
+    background-color: #c7c3be;
     border-radius: 8px;
     box-shadow: 2px 4px 4px #0000009F;
     padding: 12px;
@@ -13,7 +13,7 @@
     }
   
     span {
-      color: #D0D0D0;
+      color: #eceae2;
     }
   
     @media screen and (min-width:1280px) {
@@ -22,12 +22,12 @@
   }
   
   .itemSelecionado {
-    background-color: #292929;
+    background-color: #b1b0a7;
     box-shadow: 2px 4px 4px #0000009F inset;
   }
   
   .itemCompletado {
-    background-color: #566F42;
+    background-color: #064036;
     cursor: auto;
   
     .concluido {
