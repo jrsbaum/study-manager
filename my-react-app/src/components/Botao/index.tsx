@@ -1,15 +1,15 @@
-import React, {Children} from "react";
+import React, {Children, ReactNode} from "react";
 import style from './Botao.module.scss';
 
 
-
-interface Props {       
+export interface Props {      
+    children?: ReactNode | undefined; 
     type?: "button" | "submit" | "reset" | undefined, 
     onClick?: () => void
     
 } 
 
-function Botao ({ onClick, type }: Props) {
+function Botao ({ onClick, type, children }: Props) {
     
     return (
         <button 
@@ -17,7 +17,7 @@ function Botao ({ onClick, type }: Props) {
             type={type} 
             className= {style.botao}
         >
-            {Children}
+            {children}
         </button>
     )
 }
