@@ -43,7 +43,7 @@ interface Props {
             id="tarefa"
             value={tarefa}
             onChange={evento => setTarefa(evento.target.value)}
-            placeholder="O que você quer estudar"
+            placeholder="O que você quer estudar?"
             required
           />
         </div>
