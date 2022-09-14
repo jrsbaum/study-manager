@@ -47,7 +47,7 @@ input {
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: inherit;
-	color: inherit;
+	color: black;
 }
 
 button {
@@ -65,8 +65,8 @@ body {
 	display: flex;
 	justify-content: center;
 	font-family: 'Manjari', sans-serif;
-	color: #eceae2;
-	background-color: #4C4C4C;
+	color: #000000;
+	background-color: #219EBC;
 	height: 100%;
 	width: 100%;
 	padding: 16px;
@@ -87,9 +87,9 @@ body {
 
 ::-webkit-scrollbar-thumb {
 	border-radius: 4px;
-	background: #888;
+	background: #8ECAE6;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #555;
+	background: #FFB703;
 }

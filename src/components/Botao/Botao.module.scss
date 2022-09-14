@@ -1,6 +1,6 @@
 .botao {
   align-self: center;
-  background-color: #b1b0a7;
+  background-color: #FFB703;
   border-radius: 10px;
   box-shadow: 2px 4px 4px #0000009F;
   color: #272626;
@@ -10,7 +10,7 @@
   width: 150px;
   
   &:active {
-    background-color: #b1b0a7;
+    background-color: #FB8500;
     box-shadow: 2px 2px 4px #0000009F inset;
   }
 }
